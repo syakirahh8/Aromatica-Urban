@@ -1,0 +1,142 @@
+<nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/logo.svg" alt="Aromatica Urban" width="110" height="90">
+          </a>
+        </div>
+      </nav>
+
+
+      @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+//variabel
+$font-family : "DM", serif text;
+
+//variabel color
+$white: #FFF;
+$black: #000;
+$primary: #4BAEA0;
+$secondary : #B56060;
+$dark : #2F2F2F;
+$body_color : #6A6A6A;
+$light : #dce5e4;
+$lighter : #EFF2F1;
+
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
+* {
+  font-family: "DM", "serif-text";
+}
+  
+  
+:root {
+  --primary-color: #4BAEA0;
+  --text-color: #000;
+  --text-white: white;
+  --secondary-color: #B56060;
+  --text-dark :#2F2F2F;
+  --body-color :#6A6A6A;
+
+}
+
+
+
+<!-- <section>
+      <div class="about">
+        <div class="row">
+        <div class="image-section">
+          <img src="assets/aboutt.png" alt="About Us">
+        </div>
+          <div class="content">
+          <h4>About Us</h4>
+          <h1>Welcome to Aromatica Urban!</h1>
+          <p>Aromatica Urban was born out of our love for food and the vibrant urban atmosphere. Established in 2022, the restaurant has grown to become a favorite destination for those seeking an authentic and innovative dining experience. With its warm ambience and modern interiors, Aromatica Urban is the perfect place for business meetings, family events, or simply enjoying a relaxing dinner.</p>
+          </div>
+          <div class="button-hero">
+            <button>Learn More</button>
+          </div>
+      </div>
+      </div>
+     </section> -->
+/*# sourceMappingURL=style.css.map */
+
+Spicy Urban Chicken Curry
+Blackberry & Coconut Custard Tart
+Mocha Dalgona
+
+<!-- <div class="row d-flex">
+          <div class="col-lg-4">
+            <img class="img-section" width="270" height="200" src="assets/blog-1.jpg" alt="program1">
+            <h2 class="program-name">Menu Berkualitas dengan Bahan-Bahan Segar</h2>
+            <p class="blog-desc">
+              Kami selalu mengutamakan kualitas. Setiap hidangan yang kami sajikan dibuat dari bahan-bahan segar yang
+              dipilih dengan teliti.
+              Baik itu hidangan pembuka, makanan utama, atau pencuci mulut, kami ingin memastikan setiap gigitan adalah
+              pengalaman yang memuaskan.
+            </p>
+            <button>Read More</button>
+          </div>
+          <div class="col-lg-4">
+            <img class="img-section" width="270" height="200" src="assets/blog-2.jpg" alt="program1">
+            <h2 class="program-name">Layanan yang Ramah dan Profesional</h2>
+            <p class="blog-desc">
+              Kami bangga dengan tim kami yang selalu memberikan pelayanan terbaik.
+              Setiap staf dilatih untuk memberikan pengalaman makan yang ramah, cepat, dan penuh perhatian.
+              Kami ingin memastikan bahwa setiap tamu merasa dihargai dan dilayani dengan baik.
+            </p>
+            <button>Read More</button>
+          </div>
+
+          <div class="col-lg-4">
+            <img class="img-section" width="270" height="200" src="assets/blog-3.jpg" alt="program1">
+            <h2 class="program-name">Lokasi Strategis dan Mudah Diakses</h2>
+            <p class="blog-desc">
+              Restoran kami terletak di lokasi yang strategis dan mudah diakses.
+              Baik Anda datang untuk makan siang santai atau makan malam spesial, kami berada di jantung kota, siap
+              menyambut Anda dengan tangan terbuka.
+            </p>
+            <button>Read More</button>
+          </div>
+        </div> -->
+
+
+
+        img {
+  margin-bottom: 21px;
+  border-radius: 20px;
+  /* padding: 5px 20px; */
+}
+
+.img-section {
+  gap: 15px;
+}
+
+.program-name {
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.program .blog-desc {
+    color: var(--text-dark);
+    font-size: 12px;
+    font-weight: 200;
+    width: 396px;
+    margin-bottom: 12px;
+    /* align-items: center; */
+
+}
+
+button {
+  background-color: var(--secondary-color);
+  color: var(--text-white);
+  border-radius: 8px;
+  border: none;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background-color: var(--secondaryyy-color);
+  color:var(--bg-gray) ;
+}
